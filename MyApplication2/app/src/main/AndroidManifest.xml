@@ -12,7 +12,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:name=".CaracterActivity"
+            android:exported="true" />
+        <activity
+            android:name=".WeaponActivity"
+            android:exported="true" />
+        <activity
             android:name=".MenuActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MangaActivity"
             android:exported="true" />
         <activity
             android:name=".CadastroActivity"
